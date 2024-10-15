@@ -56,6 +56,12 @@ section.secondary {
   padding: 16px;
   background-color: #462cb3;
   text-decoration: none;
+  border: 1px solid #462cb3;
+  transition: all 200ms ease-in-out;
+}
+.btn:hover {
+  background-color: white;
+  color: #462cb3;
 }
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
@@ -101,6 +107,11 @@ header a {
   padding: 16px 32px;
   display: inline-block;
   margin-top: 32px;
+  transition: all 200ms ease-in-out;
+}
+
+header a:hover {
+  transform: scale(1.1);
 }
 
 main {
