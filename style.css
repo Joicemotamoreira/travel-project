@@ -38,6 +38,9 @@ section.secondary {
 .instagram-embeds {
   margin: 30px 0;
 }
+.bx-shadow {
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
 .card {
   background-color: white;
   margin: 30px 0;
